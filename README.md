@@ -90,3 +90,17 @@ This helps with auditing and tracking payload distribution.
 - Only HTTPS with **self-signed certificates** is supported (for testing).
 - No automatic certificate management or production-grade HTTPS yet.
 - No built-in authentication beyond User-Agent filtering.
+
+## 🗺️ Roadmap – Planned Improvements for VeilDrop
+
+🕵️‍♂️ **Improve OPSEC and Anti-CTI Measures**  
+Enhance operational security by implementing evasion techniques and reducing indicators of compromise to better avoid detection and threat intel feeds.
+
+🔐 **Add More Authentication Options**  
+Introduce additional access control mechanisms beyond User-Agent filtering, such as API keys, tokens, mutual TLS, or time-based request validation.
+
+🚀 **Production Mode with Certbot & Reverse Proxy**  
+Set up a production-ready deployment pipeline including:
+- Automatic HTTPS with Certbot (Let's Encrypt)
+- Reverse proxy integration (e.g., Nginx or Caddy)
+- Optional containerization with Docker for consistent, portable deployment

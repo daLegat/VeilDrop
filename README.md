@@ -2,9 +2,9 @@
 A dead simple covert payload server that selectively delivers malicious implants or redirects to legitimate-looking pages based on request parameters.
 
 
-# 🚀 Getting Started – Veildrop
+# 🚀 Getting Started – VeilDrop
 
-Veildrop is a minimal HTTPS-based payload delivery service. The current version is intended for **local testing only**, using self-signed certificates.
+VeilDrop is a minimal HTTPS-based payload delivery service. The current version is intended for **local testing only**, using self-signed certificates.
 
 ---
 

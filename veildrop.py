@@ -176,7 +176,7 @@ if __name__ == '__main__':
     else:
         if not os.path.isfile("certs/key.pem") and not os.path.isfile("certs/cert.pem"):
             generate_selfsigned_certificate()
-        # HTTPS context
+    # HTTPS context
     context = ('certs/cert.pem', 'certs/key.pem')
 
     # Run Flask's built-in HTTPS server (good for local testing)
